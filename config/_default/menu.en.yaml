@@ -1,0 +1,7 @@
+main:
+  - name: Home
+    identifier: home
+    weight: 1
+    url: /
+    params:
+      icon: '<i class="fas fa-fw fa-book"></i>'
