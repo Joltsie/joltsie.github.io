@@ -1,6 +1,6 @@
 ---
 title: "Ownership, Beginnings, and 'The Dream'"
-date: 2022-04-17T16:35:29+08:00
+date: 2025-01-20T16:35:29+08:00
 draft: true
 tags:
 ---
