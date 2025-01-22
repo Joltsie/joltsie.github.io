@@ -3,7 +3,7 @@
 title: Welcome to my website!
 date: 2025-01-20T11:34:47+08:00
 featured: true
-draft: true
+draft: false
 comment: true
 toc: false
 reward: true
