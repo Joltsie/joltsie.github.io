@@ -1,28 +1,14 @@
 ---
 date: 2022-09-06T22:42:23+08:00
-title: Introduction
-navWeight: 1000 # Upper weight gets higher precedence, optional.
+title: Sylvafen
+# navWeight: 1000 # Upper weight gets higher precedence, optional.
 linkTitleIcon: <i class="fas fa-fw fa-book"></i> # The icon of the link title, optional.
 series:
   - Guide
+draft: true
 ---
 
-Sylvafen v1.3 Release
 
-Thank you so much for purchasing The Sylvafen! This is my very first avatar release and I've put a lot of love and care into them. Your support really means a lot to me. <3
-Don't hesitate to bother me in the Discord if you have any questions, issues setting up, or just want to show off your Sylvafen, I don't bite <3
-
----
-
-BASIC AVATAR SETUP INSTRUCTIONS
-
-1. Install VRC Creator Companion (https://www.youtube.com/watch?v=0u1g0TYoJsU) and the appropriate Unity version using it
-2. Make a new Unity project using VRChat's Creator Companion
-3. Add the Avatars SDK (Built-In), VRCFury (https://vrcfury.com/download/) and Poiyomi (https://github.com/poiyomi/PoiyomiToonShader) VCC packages to your newly created project using the creator companion
-4. Open your newly created Unity Project
-5. Unzip the avatar zip into a new folder and drag the .unitypackage file into your Unity
-6. Open the provided Unity scene
-7. Open the VRChat SDK in Unity, log in, and then upload
 
 ---
 
@@ -31,13 +17,13 @@ PREFAB VARIANTS
 This avatar uses a prefab for the PC version with the Quest version being a Prefab Variant of Sylvafen_PC_Base. This means that if you edit the prefab directly instead of editing the scene, you can have your avatar edits effect your Quest version and all other versions as well. Highly recommend using this workflow if you intend on extensively modifying your Fen while wanting to keep the avatar cross-platform
 
 The 'Standard' prefabs are the default without color/texture swaps for better VRAM usage.
-The 'Public' prefabs are mostly indentical save for the inclusion of the advertisement and additional color sliders/texture toggles found in the public one.
-The 'Face-Tracking' prefabs are face-tracked, being integrated with ADJerry's FT template and utilizing the 'Ulimited Params' component from VRCFury to cram it all in there.
+The 'Public' prefabs are mostly identical save for the inclusion of the advertisement and additional color sliders/texture toggles found in the public one.
+The 'Face-Tracking' prefabs are face-tracked, being integrated with ADJerry's FT template and utilizing the 'Unlimited Params' component from VRCFury to cram it all in there.
 
 ---
 
 FACE TRACKING
-The face-tracking prefabs rely on ADJerry91's face tracking template. Add it to your project via VRChat's Creator Companion by using this URL and adding the repository and sebsequently adding it to your project (https://adjerry91.github.io/VRCFaceTracking-Templates/).
+The face-tracking prefabs rely on ADJerry91's face tracking template. Add it to your project via VRChat's Creator Companion by using this URL and adding the repository and subsequently adding it to your project (https://adjerry91.github.io/VRCFaceTracking-Templates/).
 
 Then simply add one of the face-tracking prefabs to your scene and upload!
 
@@ -45,7 +31,7 @@ Then simply add one of the face-tracking prefabs to your scene and upload!
 
 TEXTURES
 
-If you make your own custom textures, I would recommend copying the texture settings of the existing textures (or overwriting the originals). There's various settings in there meant to fix rendering artifacts ingame (like around the eyes, for example) and to optimize the Quest textures for upload (very important with the limited upload size of 10mb).
+If you make your own custom textures, I would recommend copying the texture settings of the existing textures (or overwriting the originals). There's various settings in there meant to fix rendering artifacts in-game (like around the eyes, for example) and to optimize the Quest textures for upload (very important with the limited upload size of 10mb).
 
 ---
 

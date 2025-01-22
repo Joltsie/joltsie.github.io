@@ -7,4 +7,4 @@ menu:
       icon: '<i class="fas fa-fw fa-file"></i>'
 ---
 
-The example of Docs layout.
+#### Resources for getting started with my avatars

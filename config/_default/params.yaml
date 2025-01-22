@@ -19,7 +19,7 @@ logo: images/logo-light.png # Logo image. Default to images/logo.webp.
 # logo: false # Disable Logo
 brand: ‎
 
-palette: blue-blue # Default palette. Optional. You'll need to clear the browser cache after modifying this.
+palette: cyan # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # Available palettes. Default to ALL. Empty array means disable.
 # palettes:
 #  - blue
@@ -107,19 +107,20 @@ codeBlock:
 post:
   # excerpt: description
   # excerptMaxLength: 120
-  copyright: false # Whether to display copyright section on each post.
+  copyright: true # Whether to display copyright section on each post.
   # plainifyExcerpt: false # Format excerpt in HTML if false.
   featuredImage: true # Show the featured image above the content.
-  numberifyHeadings: true # Count headings automatically.
+  numberifyHeadings: false # Count headings automatically.
   # numberifyHeadingsEndLevel: 4 # The depth of headings to count. Default to 6.
   numberifyHeadingsSeparator: . # The separator between of number and headings.
   # tocStyleType: decimal # The TOC's CSS list-style-type property.
   # imageTitleAsCaption: true
-  # panel: false # Disable the post panel.
+  panel: true # Disable the post panel.
   # nav: false # Disable post navigations.
   # The page position after clicking the read more button, read more from content if true. Default to the beginning of page.
   # It supports only of the manual summaries spliting via <!--more-->.
   # readMoreFromContent: true
+
 
 archive:
   paginate: 20 # Archive pagination. Default to 100.
@@ -228,7 +229,7 @@ reward:
 pwa:
   manifest:
     # name:  # Default to site title.
-    short_name: HBS
+    # short_name: HBS
     # display: fullscreen # Default to standalone.
     # description:  # Default to site description.
     # theme_color: 
@@ -264,7 +265,7 @@ topAppBar:
 
 docs:
   nav:
-    expand: false # Expand docs navigation.
+    expand: true # Expand docs navigation.
     reduceFontSize: true # Reduce font size of children navigation.
 
 #feeds:
