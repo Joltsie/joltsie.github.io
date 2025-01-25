@@ -1,8 +1,8 @@
 (() => {
-  // ns-hugo-params:/home/runner/work/joltsie.gihub.io/joltsie.gihub.io/themes/hugo-theme-bootstrap/assets/js/local-storage/index.ts
+  // ns-hugo-params:/home/runner/work/joltsie.github.io/joltsie.github.io/themes/hugo-theme-bootstrap/assets/js/local-storage/index.ts
   var local_storage_default = { baseURL: "https://projects.razonyang.com/hugo-theme-bootstrap-skeleton/" };
 
-  // ns-hugo-imp:/home/runner/work/joltsie.gihub.io/joltsie.gihub.io/themes/hugo-theme-bootstrap/assets/js/local-storage/index.ts
+  // ns-hugo-imp:/home/runner/work/joltsie.github.io/joltsie.github.io/themes/hugo-theme-bootstrap/assets/js/local-storage/index.ts
   var PathLocalStorage = class {
     constructor(baseURL) {
       this.baseURL = baseURL;
