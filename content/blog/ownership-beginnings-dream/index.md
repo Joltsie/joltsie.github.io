@@ -9,7 +9,7 @@ tags:
 We've all gotta start somewhere, even if it's not the first time.
 
 <!--more-->
->Artwork by [Hioshiru](https://www.furaffinity.net/view/47650906/)
+>Artwork: 'Dawn hunt' by the ever-talented [Hioshiru](https://www.furaffinity.net/view/47650906/)
 ---
 
 I've never been much for sharing what I do. I'm quite bad at it actually. It's really easy to keep everything to yourself and never play your cards. It's safer that way. I've been doing casual 3D modeling and game development for roughly 10 years but prior to my first avatar release, I've only shared what I work on with a select few friends who have had an interest in that stuff. In my mind, I never thought they were good enough to warrant sharing with a broader audience. I now see that was kind of a silly mindset. Nobody ever really meets their own expectations and unless you just decide to stop improving, the goalposts will always be moving.
