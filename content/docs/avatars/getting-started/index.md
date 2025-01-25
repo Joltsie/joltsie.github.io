@@ -14,10 +14,11 @@ comment: false
 ##### This is an avatar-agnostic setup guide for getting started with any of my bases.
 
 ### 1. Install the VRChat Creator Companion
-Install VRC Creator Companion (https://www.youtube.com/watch?v=0u1g0TYoJsU) and the appropriate Unity version using it.
+Follow along with the official VRChat Creator Companion tutorial video.
+{{< youtube 0u1g0TYoJsU >}}
 
 ### 2. Make a new Unity project using VRChat's Creator Companion
-Refer to the above tutorial.
+Refer to the above video.
 
 ### 3. Add the required packages to your project
 > [!TIP]
