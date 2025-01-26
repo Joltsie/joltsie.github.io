@@ -176,7 +176,7 @@ giscus:
   repo: "Joltsie/joltsdev-giscus" # required.
   repoId: "R_kgDONvogfA" # required.
   category: "Announcements" # required.
-  categoryId: "DIC_kwDOHJi95s4CTy6q" # required.
+  categoryId: "DIC_kwDONvogfM4CmWIl" # required.
   # theme: "dark" # Default to auto.
   # mapping: "title" # Default to pathname.
   # inputPosition: "bottom" # Default to top.
