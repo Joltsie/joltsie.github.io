@@ -283,7 +283,7 @@ subPath = "exampleSite"
 
 [topAppBar]
 # colorToggle = false # Disable the color toggle
-# coloredInDark = true # Colored in dark mode
+coloredInDark = true # Colored in dark mode
 # dropdownMenuToggle = false # Hide the dropdown menu toggle.
 # expandBreakpoint = "xl" # expand the content above the specific breakpoint: lg, xl, xxl.
 [topAppBar.social]

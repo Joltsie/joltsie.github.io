@@ -98,7 +98,7 @@ sidebar:
   # postsToggle: false # Disable posts toggle
   # featuredPosts: true # Enable featured posts widget
   # recentPosts: true # Enable featured posts widget
-  collapsed: true # Collapse sidebar widgets by default on small screens.
+  collapsed: false # Collapse sidebar widgets by default on small screens.
 
 codeBlock:
   # maxLines: 8
@@ -257,9 +257,15 @@ contact:
 #   # dateFormat: 02/01/2006, 15:04:05 PM
 
 topAppBar:
-  # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
+  # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.\
   social:
-    github: Joltz
+    email: jolts@jolts.dev
+    github: Joltsie
+    itchio: Joltsie
+    discord: FNcST693Hj
+    bluesky: jolts.dev
+    gumroad: joltsie
+    jinxxy: joltsie
     # patreon: joltsie
     # paypal: joltsie
 
@@ -274,12 +280,12 @@ docs:
 social:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   email: jolts@jolts.dev
-  twitter: JoltsieVR
-  reddit: Joltz
-  # youtube: youryoutubechannelid
-  discord: yourdiscordinvitecode
-  # bluesky: joltsie
-  # patreon: joltsie
+  github: Joltsie
+  itchio: Joltsie
+  discord: FNcST693Hj
+  bluesky: jolts.dev
+  gumroad: joltsie
+  jinxxy: joltsie
 
 author:
   name: Joltsie
@@ -293,9 +299,12 @@ author:
   }
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
-    email: jolts@jolts.dev
     # github: Joltz
+    bluesky: jolts.dev
     twitter: JoltsieVR
+    email: jolts@jolts.dev
+    gumroad: joltsie
+    jinxxy: joltsie
     # patreon: joltsie
     # paypal: joltsie
     rss: "" # Remove RSS
