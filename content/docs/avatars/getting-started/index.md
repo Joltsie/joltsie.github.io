@@ -6,12 +6,11 @@ title: Getting Started
 linkTitleIcon: <i class="fas fa-fw fa-book"></i> # The icon of the link title, optional.
 series:
   - Guide
-comment: false
 ---
 
 <!--more-->
 
-##### This is an avatar-agnostic setup guide for getting started with any of my bases.
+# This is an avatar-agnostic setup guide for getting started with any of my bases.
 
 ### 1. Install the VRChat Creator Companion
 Follow along with the official VRChat Creator Companion tutorial video.
