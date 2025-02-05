@@ -65,6 +65,14 @@ The PC and Quest versions are nearly identical in function but they have a few d
 3. No toe, whisker, nose, or butt physics on quest
 4. Lighting options are PC only
 
+## Av3 Emulator and Gesture Manager
+
+Av3 Emulator and Gesture Manager are two very popular packages for debugging and playtesting avatar features in the Unity editor. Unfortunately, some recent updates to these packages have rendered newer versions unusable for the Sylvafen. Fortunately, the (slightly) older versions still work just fine.
+
+For this reason, I recommend the following versions for now until the issue is resolved:
+
+``Gesture Manager 3.9.2`` | ``Av3Emulator 3.4.6``
+
 ## Technical Information for Base Editors
 
 For advanced users!
