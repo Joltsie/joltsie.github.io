@@ -46,3 +46,7 @@ markup:
     lineNos: true
     noClasses: false
     lineNumbersInTable: false
+
+caches:
+  images:
+    dir: :cacheDir/images
