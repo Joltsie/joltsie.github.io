@@ -62,7 +62,7 @@ Here's the full notes for those interested:
 >- Created new easier to use Face-Tracking prefab - now packages ADJerry's template into the project without needing an external download
 
 #### I am now unemployed
-Yeah so, I've been employed on and off in some capacity for the past few years. It's always been a bit rough for me. I'm a highly creative and self-driven person. Working for people and things I don't particularly care about or feel invested in is always difficult for me to stick with. The regular income is nice of course; I need money to live and survive off of. I have real bills to pay. But I find myself getting progressively more downtrodden and depressed after the initial couple months. I've traditionally worked in the diesel and automative industry and I've been pretty successful at it but It's just not personally rewarding for me.
+Yeah so, I've been employed on and off in some capacity for the past few years. It's always been a bit rough for me. I'm a highly creative and self-driven person. Working for people and things I don't particularly care about or feel invested in is always difficult for me to stick with. The regular income is nice of course; I need money to live and survive off of. I have real bills to pay. But I find myself getting progressively more downtrodden and depressed after the initial couple months. I've traditionally worked in the diesel and automotive industry and I've been pretty successful at it but It's just not personally rewarding for me.
 
 Anyways, I found myself at my last job back in November and stuck with it for the past 7 months. In that 7 months, that business took a nosedive and paycheck security was becoming a real concern for me. Things ended up coming to a head financially at the end of May and I took off before the inevitable happened.
 
@@ -72,12 +72,12 @@ So now I'm here, unemployed and actually quite happy about it. I have a couple m
 
 ##### 1. Continue to support the Sylvafen
 - The release of v1.4.0 was the first step of this. I want to make the Sylvafen easier to maintain and make additional content for (both myself and others).
-- Update documentation to make current and future avatars easier to use and more apporachable.
+- Update documentation to make current and future avatars easier to use and more approachable.
 - Introduce the Sylvafen NSFW DLC. I'm not sure how I want to roll this one out from a publicity standpoint but I'll figure something out. :wink:
 - Make a video trailer for both the SFW and NSFW versions! The Sylvafen is still a relatively unknown avatar and could do with another good marketing push. Easily-sharable, short videos could do wonders.
 ##### 2. Roll out a Patreon
-- Suprisingly a lot of people have been asking for this one! Some form of reoccuring support would be a huge boon to my financial situation and smooth out the huge bumps that come from the avatar release cycle.
-- Start out as a sort of reoccuring donation platform and introduce additional features from there. Tutorials? Avatar assets? Maybe avatar catalogue access at a certain tier (once I have more than one avatar out, of course). Lots of ways I could go with it.
+- Surprisingly a lot of people have been asking for this one! Some form of reoccurring support would be a huge boon to my financial situation and smooth out the huge bumps that come from the avatar release cycle.
+- Start out as a sort of reoccurring donation platform and introduce additional features from there. Tutorials? Avatar assets? Maybe avatar catalogue access at a certain tier (once I have more than one avatar out, of course). Lots of ways I could go with it.
 
 ##### 3. Start a new avatar!
 - Obviously can't have an avatar career without making more avatars. I'm thinking something cat-like!
