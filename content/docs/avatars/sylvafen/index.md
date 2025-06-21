@@ -34,7 +34,13 @@ If you make your own custom textures, I would recommend copying the texture sett
 > [!Note]
 > If you are having issues with your custom eye color not applying correctly, you need to make sure you change the emission texture as well in your `Bits` material. This is exported from the Substance file alongside your normal textures as of version `1.4.0`.
 >
+>> [!Note]- Standard Toon Example (Click to Expand)
+>> ![alt text](material2.png)
+>
 >Users who are using the Poiyomi will instead need to replace their existing `Decals` texture in the `Bits` material with their bits texture in addition to the normal Albedo/Base Color texture slot. Additionally, they will need to replace their `Shader Toggles (Standard Toon)` object in their avatar hierarchy with `Shader Toggles (Poiyomi)` found inside the `Components` folder.
+>
+>> [!Note]- Poiyomi Example (Click to Expand)
+>> ![alt text](material.png)
 >
 >Users upgrading from `1.3.x` simply copy over their old Poiyomi materials and change their Shader Toggles as above if they prefer.
 
@@ -72,11 +78,6 @@ The exploded model for Substance is in the .blend file. Export that and the base
 
 > [!QUESTION]- I'd like to hide my hair and use my own
 >The easiest way to accomplish this would be to shrink the HairRoot bone and then move it inside the head. Then attach your own preferred hair mesh.
-
-> [!QUESTION]- My eye texture isn't working
->There's two slots you need to replace the 'Bits' texture in the Bits Material. One is the main texture and then there's another slot under the decals.
->
->![alt text](material.png)
 
 > [!QUESTION]- My face tracking prefab is missing components or isn't uploading
 >Make sure you have AdJerry91's face tracking template installed. See the above 'Eye and Face Tracking' section.
