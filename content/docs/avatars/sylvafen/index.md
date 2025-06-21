@@ -25,7 +25,7 @@ This makes it easy to make more parameter space for things you want to add!
 This avatar uses a prefab for the PC version with the Quest version being a Prefab Variant of Sylvafen_PC. If you make edits to the Prefab directly, you can have all of your PC changes happen automatically on Quest as well. This isn't required and you're more then welcome to simply edit the one in the scene directly but editing the Sylvafen_PC prefab directly can save you a lot of time with managing avatar versions for other platforms. Future DLCs may make use of additional variants which makes them even more useful.
 
 ## Eye and Face Tracking
-The face-tracking prefabs rely on ADJerry91's face tracking template alongside some custom logic for emoting the ears, tail, and tongue.
+The face-tracking prefabs rely on ADJerry91's face tracking template alongside some custom logic for emoting the ears, tail, and tongue and is pre-bundled in the project.
 To add face-tracking to your Sylvafen, simply drag the Face Tracking component from the `Components` folder onto your avatar.
 
 ## Textures
