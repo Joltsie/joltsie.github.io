@@ -25,9 +25,9 @@ Refer to the above video.
 
 You will need the following packages in order to use and upload your avatar:
 
-- VRChat Avatars SDK (Built-In)
+- VRChat Avatars SDK 3.8.1 or Newer (Built-In)
 - [VRCFury](https://vrcfury.com/download/) | [VPM](vcc://vpm/addRepo?url=https%3A%2F%2Fvcc.vrcfury.com)
-- [Poiyomi Shader](https://github.com/poiyomi/PoiyomiToonShader) | [VPM](vcc://vpm/addRepo?url=https%3A%2F%2Fpoiyomi.github.io/vpm/index.json)
+- Optional: [Poiyomi Shader](https://github.com/poiyomi/PoiyomiToonShader) | [VPM](vcc://vpm/addRepo?url=https%3A%2F%2Fpoiyomi.github.io/vpm/index.json)
 
 > [!WARNING]
 > VRCFury is not optional! It's core to my avatar's functionality and modularity. Things will not work without it.
@@ -35,13 +35,15 @@ You will need the following packages in order to use and upload your avatar:
 ### 4. Open your newly created Unity Project
 Be patient, loading a fresh project may take awhile.
 
-### 5. Unzip the avatar files into a new folder and drag the .unitypackage file into your Unity
+### 5. Unzip the avatar files into a new folder. Drag the .unitypackage file into your Unity Project's file window
 This will extract all of the avatar files into your Project tab.
 
 ### 6. Open the provided Unity scene
-This will have the Optimized PC prefab by default.
+This will have the PC prefab in the scene by default.
 
 ![alt text](scene.png)
 
 ### 7. Open the VRChat SDK in Unity, log in, and then upload
 That's it! If you did everything correctly, you should have a usable default base uploaded to your account and ready to go.
+
+### 8. Continue on to specific documentation for your avatar

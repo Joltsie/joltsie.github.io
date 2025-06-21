@@ -1,5 +1,5 @@
 ---
-date: 2025-01-26T22:42:23+08:00
+date: 2025-06-20T22:42:23+08:00
 title: The Sylvafen
 # navWeight: 1000 # Upper weight gets higher precedence, optional.
 linkTitleIcon: <i class="fas fa-fw fa-book"></i> # The icon of the link title, optional.
@@ -22,54 +22,28 @@ Parameter space is very limited in VRChat and given such, this project makes hea
 This makes it easy to make more parameter space for things you want to add!
 
 ## Prefab Variants
-
-This avatar uses a prefab for the PC version with the Quest version being a Prefab Variant of Sylvafen_PC_Base.
-
-This means that if you edit the prefab directly (by double-clicking it) instead of editing the scene, you can have your avatar edits effect your Quest version and all other versions as well. Highly recommend using this workflow if you intend on extensively modifying your Fen while wanting to keep the avatar cross-platform but it's not a requirement
-
-- The 'Base' prefabs propagate their changes to all the other versions below
-- The 'Public' prefabs are mostly identical save for the inclusion of the advertisement and additional color sliders/texture toggles found in the public one.
-- The 'Standard' prefabs are the default without color/texture swaps for better VRAM usage.
-- The 'Face-Tracking' prefabs are face-tracked, being integrated with ADJerry's FT template and utilizing the 'Parameter Compressor' component from VRCFury to fit all the face-tracking parameters alongside the standard Sylvafen offerings.
-
-So understanding this, your ideal workflow will involve editing the 'Base' prefab and then uploading either the 'Base', 'Standard' or 'Face-Tracking' prefabs depending on what you need.
+This avatar uses a prefab for the PC version with the Quest version being a Prefab Variant of Sylvafen_PC. If you make edits to the Prefab directly, you can have all of your PC changes happen automatically on Quest as well. This isn't required and you're more then welcome to simply edit the one in the scene directly but editing the Sylvafen_PC prefab directly can save you a lot of time with managing avatar versions for other platforms. Future DLCs may make use of additional variants which makes them even more useful.
 
 ## Eye and Face Tracking
-The face-tracking prefabs rely on ADJerry91's face tracking template. Add it to your project via VRChat's Creator Companion by using this URL and adding the repository and subsequently adding it to your project
-> [!TIP]
-> You can add this package to your Creator Companion client packages using the respective VPM links, allowing you to one-click install and update it for all your current and future projects.
-
-[AdJerry91's Face-Tracking Template](https://adjerry91.github.io/VRCFaceTracking-Templates/) | [VPM](vcc://vpm/addRepo?url=https%3A%2F%2FAdjerry91.github.io/VRCFaceTracking-Templates/index.json)
-
-After you've added the template to your project, simply add one of the face-tracking prefabs to your scene and upload!
-
-### ET/FT Technical Info
-If you want to add Eye/Face tracking to an existing avatar without using the prefab, all you have to do is add these two prefabs
-
-![Face-Tracking Objects](ft.png)
-
-`VRCFury - Face Tracking - UE Blendshapes` is the Universal Expressions template from AdJerry's package. It handles the animator setup for controlling the avatar's blendshapes to make your face move
-
-`Face Tracking - Extra Animations` is optional and contains the ear, tongue, and tail animation animation logic.
+The face-tracking prefabs rely on ADJerry91's face tracking template alongside some custom logic for emoting the ears, tail, and tongue.
+To add face-tracking to your Sylvafen, simply drag the Face Tracking component from the `Components` folder onto your avatar.
 
 ## Textures
-
 If you make your own custom textures, I would recommend copying the texture settings of the existing textures (or overwriting the originals). There's various settings in there meant to fix rendering artifacts in-game (like around the eyes, for example) and to optimize the Quest textures for upload (very important with the limited upload size of 10mb).
 
+> [!Note]
+> If you are having issues with your custom eye color not applying correctly, you need to make sure you change the emission texture as well in your `Bits` material. This is exported from the Substance file alongside your normal textures as of version `1.4.0`.
+>
+>Users who are using the Poiyomi will instead need to replace their existing `Decals` texture in the `Bits` material with their bits texture in addition to the normal Albedo/Base Color texture slot. Additionally, they will need to replace their `Shader Toggles (Standard Toon)` object in their avatar hierarchy with `Shader Toggles (Poiyomi)` found inside the `Components` folder.
+>
+>Users upgrading from `1.3.x` simply copy over their old Poiyomi materials and change their Shader Toggles as above if they prefer.
+
 ## PC/Quest Interoperability
-
-The PC and Quest versions are nearly identical in function but they have a few differences
-
-1. The hue shift options are only work on PC. Quest users will see the non-shifted version of your texture.
-2. The blushing present on certain gestures is only visible on PC
-3. No toe, whisker, nose, or butt physics on quest
-4. Lighting options are PC only
+The PC and Quest versions are nearly identical in function other than some physbones being disabled.
 
 ## Av3 Emulator and Gesture Manager
 
-Av3 Emulator and Gesture Manager are two very popular packages for debugging and playtesting avatar features in the Unity editor. Unfortunately, some recent updates to these packages have rendered newer versions unusable for the Sylvafen. Fortunately, the (slightly) older versions still work just fine.
-
-For this reason, I recommend the following versions for now until the issue is resolved:
+Av3 Emulator and Gesture Manager are two very popular packages for debugging and playtesting avatar features in the Unity editor. Unfortunately, some recent updates might have issues with Sylvafen. If you have these issues, try using these specific versions:
 
 ``Gesture Manager 3.9.2`` | ``Av3Emulator 3.4.6``
 
@@ -94,7 +68,7 @@ The exploded model for Substance is in the .blend file. Export that and the base
 >In your custom texture's settings, make sure your Max Size is set to 4096 (i.e. 4k) (PC Only, keep your Android Max Size at 2k or lower). Be default, Unity sets the max to 2048.
 
 > [!QUESTION]- My unpacked avatar size seems unusually large
->This is a symptom of all the texture options on the avatar. If you are happy with just one of the texture options, just deleting the 'Texture Swap (6 Bits)' and 'Clothes Texture Swaps (PC/Quest)' objects in your avatar components and setting the texture you want manually in the material before uploading will bring this size down by over half.
+>This is a symptom of all the texture options on the avatar. If you are happy with just one of the texture options, just deleting the 'Texture Swap' customization objects from your Sylvafen.
 
 > [!QUESTION]- I'd like to hide my hair and use my own
 >The easiest way to accomplish this would be to shrink the HairRoot bone and then move it inside the head. Then attach your own preferred hair mesh.
@@ -106,3 +80,6 @@ The exploded model for Substance is in the .blend file. Export that and the base
 
 > [!QUESTION]- My face tracking prefab is missing components or isn't uploading
 >Make sure you have AdJerry91's face tracking template installed. See the above 'Eye and Face Tracking' section.
+
+> [!QUESTION]- My eyes won't change color, even with my custom texture applied.
+>See the Textures section above.
